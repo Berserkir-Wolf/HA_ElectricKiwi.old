@@ -6,5 +6,5 @@
     "dependencies": [],
     "codeowners": ["@Berserkir-Wolf"],
     "requirements": [],
-    "iot_class": ""
+    "iot_class": "cloud_polling"
   }
