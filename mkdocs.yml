@@ -2,6 +2,7 @@
 site_name: Electric Kiwi HA Sensor
 site_description: A 3rd-party integration for Home Assistant to pull usage data from Electric Kiwi
 site_author: Dyson Parkes
+site_url: https://berserkir-wolf.github.io/HA_ElectricKiwi/
 repo_url: https://github.com/Berserkir-Wolf/HA_ElectricKiwi
 repo_name: Berserkir-Wolf/HA_ElectricKiwi
 
