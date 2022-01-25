@@ -74,6 +74,6 @@ plugins:
       locale: en
       fallback_to_build_date: false
 
-# Navigation Layout
-nav:
-  - Home: index.md
+# Navigation Layout (AutoGen while this is commented out)
+#nav:
+#  - Home: index.md
