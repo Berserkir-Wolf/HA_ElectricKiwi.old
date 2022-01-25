@@ -1,0 +1,10 @@
+{
+    "domain": "electrickiwi",
+    "name": "Electric Kiwi Sensors",
+    "config_flow": false,
+    "documentation": "https://github.com/Berserkir-Wolf/HA_ElectricKiwi/wiki/",
+    "dependencies": [],
+    "codeowners": [],
+    "requirements": [],
+    "iot_class": ""
+  }
