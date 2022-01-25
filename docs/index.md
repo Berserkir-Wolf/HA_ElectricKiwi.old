@@ -1,3 +1,11 @@
+---
+title: Home
+#description: A way to get energy usage from Electric Kiwi into Home Assistant.
+hide:
+  - navigation
+  - toc
+---
+
 # Electric Kiwi Sensors
 
 Documentation for this will be written up here to start with, but will likely be migrated to the hass integration page (if Electric Kiwi officially approve the project).  
