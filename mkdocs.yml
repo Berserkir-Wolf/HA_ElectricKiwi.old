@@ -1,0 +1,78 @@
+# Site Details
+site_name: Electric Kiwi HA Sensor
+site_description: A 3rd-party integration for Home Assistant to pull usage data from Electric Kiwi
+site_author: Dyson Parkes
+repo_url: https://github.com/Berserkir-Wolf/HA_ElectricKiwi
+repo_name: Berserkir-Wolf/HA_ElectricKiwi
+
+# Site appearance (logos, colours, icons)
+theme:
+  name: material
+  language: en
+  code_wrap: true
+  features:
+    - header.autohide
+    - navigation.expand
+    - navigation.indexes
+    - navigation.instant
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+  #favicon: 
+  #logo: 
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+# Extra CSS
+extra_css:
+  - assets/stylesheets/extra.css
+
+# Markdown extensions
+markdown_extensions:
+  - abbr
+  - attr_list
+  - meta
+  - pymdownx.details
+  - pymdownx.highlight:
+      guess_lang: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.saneheaders
+  - pymdownx.smartsymbols
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - sane_lists
+  - toc:
+      permalink: true
+      toc_depth: 5
+
+# mkdocs function extensions
+plugins:
+  - search
+  - git-revision-date-localized:
+      type: timeago
+      locale: en
+      fallback_to_build_date: false
+
+# Navigation Layout
+nav:
+  - Home: index.md
