@@ -8,7 +8,7 @@ hide:
 
 # Electric Kiwi Sensors
 
-Documentation for this will be written up here to start with, but will likely be migrated to the hass integration page (if Electric Kiwi officially approve the project).  
+Documentation for this will be written up here to start with, but will likely be migrated to the HAss integration page (if Electric Kiwi officially approve the project).  
 
 This custom component for Home Assistant will be using the [Electric Kiwi Juice Hacker API](https://berserkir-wolf.github.io/HA_ElectricKiwi/) to return usage details to Home Assistant for the Energy dashboard to display.
 
