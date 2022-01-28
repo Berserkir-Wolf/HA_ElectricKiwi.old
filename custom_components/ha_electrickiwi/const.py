@@ -4,8 +4,7 @@
 NAME = "Electric Kiwi"
 DOMAIN = "electrickiwi"
 DOMAIN_DATA = f"{DOMAIN}_data"
-#VERSION = "0.1.0"
-
+VERSION = "0.1.0"
 #ATTRIBUTION = "Data provided by http://jsonplaceholder.typicode.com/"
 ISSUE_URL = "https://github.com/Berserkir-Wolf/HA_ElectricKiwi/issues"
 
@@ -20,7 +19,6 @@ BINARY_SENSOR = "binary_sensor"
 SENSOR = "sensor"
 SWITCH = "switch"
 PLATFORMS = [SENSOR]
-
 
 # Configuration and options
 CONF_ENABLED = "enabled"
