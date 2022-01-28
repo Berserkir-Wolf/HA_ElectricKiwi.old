@@ -6,11 +6,11 @@ DOMAIN = "electrickiwi"
 DOMAIN_DATA = f"{DOMAIN}_data"
 #VERSION = "0.1.0"
 
-ATTRIBUTION = "Data provided by http://jsonplaceholder.typicode.com/"
+#ATTRIBUTION = "Data provided by http://jsonplaceholder.typicode.com/"
 ISSUE_URL = "https://github.com/Berserkir-Wolf/HA_ElectricKiwi/issues"
 
 # Icons
-ICON = "mdi:format-quote-close"
+ICON = "mdi:home-lightning-bolt"
 
 # Device classes
 BINARY_SENSOR_DEVICE_CLASS = "connectivity"
